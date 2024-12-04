@@ -3852,7 +3852,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
   /* background-color: var(--bs-gray-dark) !important; */
-  background: linear-gradient(transparent 0%, var(--bs-gray-dark) 100%), url("/assets/img/bg-navbar.png") !important;
+  background: linear-gradient(transparent 0%, var(--bs-gray-dark) 100%), url("/assets/img/navbar-bg-2.jpg") !important;
   background-repeat: no-repeat !important;
   background-position-x: center !important;
   background-size: contain;
