@@ -5,14 +5,15 @@ export const MUSIC = {
         ["Goodness is Chosen.mp3", "img/cover/goodnessischosen.png"],
         ["PinkElephantGirlfriend.mp3", "img/cover/pinkelephantgirlfriend.png"]
     ],
-    songs: [
-        ["Not Much Time.mp3","img/cover/notmuchtime.png"],
+    rock: [
+        ["Daybreak.mp3","img/cover/daybreak.png"],
         ["Dunes.mp3","img/cover/dunes.png"],
-        ["Glow.mp3","img/cover/glow.png"],
+        ["Not Much Time.mp3","img/cover/notmuchtime.png"],
     ],
     synthpop: [
         ["No Hope No Pain.mp3","img/cover/nohopenopain.png"],
         ["Dong.mp3","img/cover/dong.png"],
+        ["Glow.mp3","img/cover/glow.png"],
         ["Catharsis.mp3", "img/cover/catharsis.png"]
     ],
     scifi: [
