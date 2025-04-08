@@ -11181,6 +11181,11 @@ body {
   background: transparent;
 }
 
+.sfx-section {
+  padding: 1rem 0;
+  background: transparent;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
