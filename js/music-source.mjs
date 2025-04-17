@@ -28,5 +28,11 @@ export const MUSIC = {
         ["Silent Assassin.mp3", "img/cover/silentassassin.png"],
         ["Forest of Giants.mp3"],
         ["Frozen Exile.mp3"]
+    ],
+    abstract: [
+        ["Ecosystem.wav"]
+    ],
+    folk: [
+        ["Nomad's Way.mp3"]
     ]
 }
