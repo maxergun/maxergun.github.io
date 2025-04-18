@@ -20,7 +20,6 @@ export const MUSIC = {
         ["Aurora.mp3", "img/cover/aurora.png"],
         ["Short Circuit.mp3", "img/cover/shortcircuit.png"],
         ["Skyline.mp3", "img/cover/skyline.png"],
-        ["Superposition.mp3", "img/cover/superposition.png"],
         ["Last Contact.mp3", "img/cover/lastcontact.png"]
     ],
     orchestral: [
@@ -29,10 +28,17 @@ export const MUSIC = {
         ["Forest of Giants.mp3"],
         ["Frozen Exile.mp3"]
     ],
+    folk: [
+        ["Sweets and Magic.wav"]
+        ["Nomad's Way.mp3"],
+    ],
+    ambient: [
+        ["Dreaming Diodes.wav"],
+        ["Superposition.mp3"],
+        ["Bird's View.mp3"]
+        ["Song 6.mp3"],
+    ],
     abstract: [
         ["Ecosystem.wav"]
     ],
-    folk: [
-        ["Nomad's Way.mp3"]
-    ]
 }
