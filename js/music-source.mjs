@@ -29,14 +29,14 @@ export const MUSIC = {
         ["Frozen Exile.mp3"]
     ],
     folk: [
-        ["Sweets and Magic.wav"]
-        ["Nomad's Way.mp3"],
+        ["Sweets and Magic.wav"],
+        ["Nomad's Way.mp3"]
     ],
     ambient: [
         ["Dreaming Diodes.wav"],
         ["Superposition.mp3"],
-        ["Bird's View.mp3"]
-        ["Song 6.mp3"],
+        ["Bird's View.mp3"],
+        ["Song 6.mp3"]
     ],
     abstract: [
         ["Ecosystem.wav"]
