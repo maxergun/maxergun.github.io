@@ -1,0 +1,87 @@
+<html lang="en">
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <img src="assets/icons/disk.gif" alt="" style="display: none;" id="icon-music-active">
+    <img src="assets/img/electronic.gif" alt="" style="display: none;" id="tracklistBGElectronic">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Max Antonov | Music</title>
+        <link rel="icon" type="image/x-icon" href="assets/icon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="page">
+        <!-- Navigation-->
+        <div id="mainNav"> </div>
+        <script> $("#mainNav").load("nav.html"); </script>
+
+        <div class="container tracklist-container" id="tracklistContainer"></div>
+
+        </div>
+        <div id="copyright"> </div>
+        <script> $("#copyright").load("copyright.html");</script>
+        <div class="container fixed-bottom">
+          <div class="audio-player">
+            <button id="playButton" class="play-button">
+              <img
+                id="playButtonIcon"
+                class="play-button-icon"
+                src="assets/icons/continue.png"
+                alt="Play Button"
+              >
+              </img>
+            </button>
+            <div class="player-body">
+              <p class="title" id="trackTitle"></p>
+              <div id="waveform" class="waveform"></div>
+              <div class="controls">
+                <div class="volume">
+                  <img
+                    id="volumeIcon"
+                    class="volume-icon"
+                    src="assets/icons/volume.png"
+                    alt="Volume"
+                  />
+                  <input
+                    id="volumeSlider"
+                    class="volume-slider"
+                    type="range"
+                    name="volume-slider"
+                    min="0"
+                    max="100"
+                    value="50"
+                  />
+                </div>
+                <!-- <img
+                    id = "downloadButton" 
+                    class="downloadButton"
+                    src="assets/icons/download.png"
+                    alt="Download"
+                    > -->
+              </div>
+              <div class="timecode">
+                <span id="currentTime">00:00:00</span>
+                <span>/</span>
+                <span id="totalDuration">00:00:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+      <script src="js/music-source.mjs" type="module"></script>
+      <script src="js/tracklists.mjs" type="module"></script> 
+      <script src="js/wavesurfer.js"></script> 
+      <script src="js/audio-player.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="./js/sb-forms-0.4.1.js"></script>
+</html>
