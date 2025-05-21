@@ -45,7 +45,7 @@
   --bs-warning: #e4c662;
   --bs-danger: #a16468;
   --bs-light: #ffffff;
-  --clr-background: #212529;
+  --clr-background: #747474;
   --bs-dark: #212529;
   --bs-black: #000;
   --bs-white: #ffffff;
@@ -108,9 +108,10 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background: #11111a;
+  background: linear-gradient(0deg, rgba(17, 17, 26, 1) 0%, rgba(42, 46, 66, 1) 100%);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 hr {
@@ -3864,7 +3865,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
   /* background-color: var(--bs-gray-dark) !important; */
-  background: linear-gradient(transparent 0%, var(--bs-gray-dark) 100%), url("/assets/img/navbar-bg-4.jpg");
+  background: linear-gradient(transparent 0%, transparent 100%), url("/assets/img/navbar-bg-4.jpg");
   background-repeat: no-repeat !important;
   background-position-x: center !important;
   background-size: cover;
@@ -11038,9 +11039,8 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #5e5e5e00;
+  background-color: #5e5e5e00 !important;
   border-bottom: #ffffff00 solid;
-  background-color: var(--bg-color) !important;   
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
