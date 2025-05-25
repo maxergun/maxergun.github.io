@@ -108,8 +108,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background: #11111a;
-  background: linear-gradient(0deg, rgba(17, 17, 26, 1) 0%, rgba(42, 46, 66, 1) 100%);
+  background-color: rgb(19, 19, 23);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -3705,22 +3704,8 @@ textarea.form-control-lg {
   list-style: none;
 }
 
-.nav-social-bar {
+.nav-socials {
   width: fit-content; 
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 65%;
-  padding-top: 1rem;
-  /* flex-wrap: nowrap; */
-  /* justify-content: flex-start;
-  margin-left: auto;
-  margin-right: auto;
-  
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  height: 1rem !important;
-  align-items: baseline !important;
-  max-width: 1125px;  */
   display: flex;
 }
 
@@ -3865,7 +3850,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
   /* background-color: var(--bs-gray-dark) !important; */
-  background: linear-gradient(transparent 0%, transparent 100%), url("/assets/img/navbar-bg-4.jpg");
+  background: transparent; /* linear-gradient(transparent 0%, transparent 100%), url("/assets/img/navbar-bg-4.jpg"); */
   background-repeat: no-repeat !important;
   background-position-x: center !important;
   background-size: cover;
@@ -3901,14 +3886,17 @@ textarea.form-control-lg {
 
 .navbar-nav {
   --bs-nav-link-padding-x: 1rem;
-  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-padding-y: 1rem;
   --bs-nav-link-font-weight: 1;
   --bs-nav-link-color: var(--bs-navbar-link-color);
   --bs-nav-link-hover-color: var(--bs-navbar-link-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-left: 0;
+  padding-top: 2rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
   margin-bottom: 0;
   list-style: none;
 }
@@ -11037,9 +11025,14 @@ body {
   letter-spacing: 0.0625em;
 }
 
+.nav-bg  {
+  background: #11111a;
+  background: linear-gradient(0deg, #000000 0%, #181818 110%);  
+}
+
 #mainNav {
   min-height: 3.5rem;
-  background-color: #5e5e5e00 !important;
+  background-color: #5e5e5e00;
   border-bottom: #ffffff00 solid;
 }
 #mainNav .navbar-toggler {
