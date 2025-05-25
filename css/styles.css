@@ -11524,3 +11524,11 @@ body {
   color: rgb(127, 127, 127)
 }
 
+.music-disclaimer {
+  color: white;
+  width: 50%;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: center;
+  align-self: center;
+}
