@@ -24,7 +24,7 @@
   --bs-green: #67c29c;
   --bs-teal: #64a19d;
   --bs-cyan: #1cabc4;
-  --bs-black: #000;
+  --bs-black: #000000;
   --bs-white: #ffffff;
   --bs-gray: #808080;
   --bs-gray-dark: #383838;
@@ -47,7 +47,7 @@
   --bs-light: #ffffff;
   --clr-background: #747474;
   --bs-dark: #212529;
-  --bs-black: #000;
+  --bs-black: #000000;
   --bs-white: #ffffff;
   --bs-primary-rgb: 100, 161, 157;
   --bs-secondary-rgb: 116, 100, 161;
@@ -71,7 +71,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.3;
   --bs-body-color: hsl(210, 13%, 15%);
-  --bs-body-bg: #2a2a2a;
+  --bs-body-bg: #3d3d3d;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #ffffff;
@@ -109,7 +109,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-repeat: repeat;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -11508,7 +11508,7 @@ body {
 }
 
 .text {
-  color: rgb(234, 234, 233);
+  color: rgb(32, 32, 32);
 }
 .discord-text {
   color: #b3b9fc;
@@ -11525,4 +11525,48 @@ body {
   margin-right: auto;
   text-align: center;
   align-self: center;
+}
+
+.youtube-videos {
+    display: grid;
+    gap: .5rem;
+}
+@media (min-width: 1024px){
+  .youtube-videos {
+    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(560px, .1fr));
+    gap: 0.5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}
+
+.youtube-video {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 6rem;
+  width: auto;
+  justify-content: center;
+}
+
+.soundcloud-front {
+  display: grid;
+  justify-items: center;
+}
+
+@media (min-width: 1400px){ 
+  .soundcloud-front {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+}
+
+.mini-bio {
+  text-wrap: wrap;
+  width: 40rem;
+  padding-top: 2rem;
 }
